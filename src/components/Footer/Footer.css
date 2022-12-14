@@ -1,0 +1,91 @@
+footer {
+    width: 100%;
+    background: #E7ECFF;
+    padding-top: 60px;
+}
+
+footer .left {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+footer .left p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #939EA4;
+}
+
+footer .nan {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer .right {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 30px;
+}
+
+footer .right button {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    background: #111B47;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+footer ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #929ECC;
+}
+
+footer .icon {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 30px;
+}
+
+footer .icon .css-i4bv87-MuiSvgIcon-root {
+    margin: 0px 30px;
+    color: #B0B8BC;
+}
+footer .icon .css-i4bv87-MuiSvgIcon-root:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: rotate(360deg);
+    color: black;
+}
+@media(max-width: 900px){
+    footer .left{
+        text-align: center;
+    }
+    footer .right{
+        justify-content: center;
+    }
+    footer .icon{
+        justify-content: center;
+    }
+    footer ul{
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+}
